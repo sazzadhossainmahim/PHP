@@ -1,0 +1,16 @@
+{
+    "name": "vendor/mvc",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Mvc\\": "src/",
+            "app\\": "./"
+        }
+    },
+    "authors": [{
+        "name": "sazzadhosssainmahim",
+        "email": "44097425+sazzadhossainmahim@users.noreply.github.com"
+    }],
+
+
+    "require": {}
+}
