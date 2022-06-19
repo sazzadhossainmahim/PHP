@@ -1,25 +1,20 @@
 <?php
-class SimpleClass
-{
-   public $var1 = 'hello ' . 'world';
-   public $var2 = <<<EOD
-hello world
-EOD;
-   public $var3 = 1+2;
-   // invalid property declarations:
-   public $var4 = self::myStaticMethod();
-   public $var5 = $myVar;
 
-   // valid property declarations:
-   public $var6 = myConstant;
-   public $var7 = [true, false];
+// $a = "foo";
+// function foo(){ echo "hey"; }
+// $a();
 
-   public $var8 = <<<'EOD'
-hello world
-EOD;
+// $x = 2;
+// function doSomething() { $x = 3; } doSomething(); echo $x;
 
-   // Without visibility modifier:
-   static $var9;
-   readonly int $var10;
+
+
+$x = 2;
+function doSomething() { 
+   $x = 3; 
 }
+
+doSomething();
+
+echo $x;
 ?>
